@@ -17,7 +17,7 @@ namespace Buscaminas
 
         public Mine()
         {
-            this.status = Celda.Status.SHOWN;
+            this.status = Celda.Status.SHOWN; //Su estado inicial esta en "visible", cambiar a oculto para poder jugar
         }
         public Celda.Status GetStatus()
         {

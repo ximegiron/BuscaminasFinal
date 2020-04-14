@@ -25,7 +25,7 @@ namespace Buscaminas
 
         public Celda()
         {
-            this.status = Status.SHOWN;
+            this.status = Status.SHOWN; //Su estado inicial esta en "visible", cambiar a oculto para poder jugar
         }
 
         public int GetValue()
