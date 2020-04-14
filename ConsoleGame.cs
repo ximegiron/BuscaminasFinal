@@ -71,7 +71,7 @@ namespace Buscaminas
             }
             Console.SetCursorPosition(0, this.height + 2);
         }
-        public void ParseReadOut(string input)
+        public void ParseReadOut(string input)//Veo que viste esta funcion en mi codigo, yo la utilizo para convertir un string con coordenadas !A12 a un right click en X=0 y Y=11. Pero puede ser bastante avanzado, te sugiero preguntar al usuario coordenada por coordenada y preguntar si es click izquierdo o derecho
         {
             bool rightclick = false;
             try
